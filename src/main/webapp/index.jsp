@@ -3,72 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notice of Exam Cancellation</title>
+    <title>Top 25 High Valuation Stocks</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
+            background-color: #f4f4f9;
+            color: #333;
             padding: 20px;
-            border: 2px solid #007BFF;
-            border-radius: 10px;
-            background-color: #fff;
         }
         h1 {
             text-align: center;
-            color: #FF5733;
+            color: #0066cc;
         }
-        h1 span {
-            color: #4CAF50;
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            color: green;
             font-weight: bold;
-            font-size: 36px;
-        }
-        .notice {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #ffffe0;
-            border: 1px solid #FFD700;
-            border-radius: 8px;
-        }
-        .notice p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .special-note {
-            color: red;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-        .image-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .image-container img {
-            max-width: 150px;
-            height: auto;
-            margin: 0 20px;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Notice from <span>ISE, Delhi (Indian School of Excellence)</span></h1>
-    
-    <div class="notice">
-        <p>This is to inform all students that the <strong>Mathematics exam for class 8th</strong>, scheduled for tomorrow, has been <strong>canceled due to the heavy rain expected tomorrow</strong>.</p>
-        
-        <p class="special-note">Please stay safe and further information regarding the rescheduled date will be provided soon.</p>
-    </div>
-    
-    <div class="image-container">
-        <img src="https://img.icons8.com/emoji/96/rain-cloud.png" alt="Rain Icon">
-        <img src="https://img.icons8.com/office/160/school-building.png" alt="School Icon">
-    </div>
-</div>
+<h1>Top 25 Stocks for High Valuation in 5 Years</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Stock Name</th>
+            <th>Current Price (USD)</th>
+            <th>Expected Valuation Increase</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td><span class="highlight">Amazon (AMZN)</span></td>
+            <td>3,275.50</td>
+            <td>+150%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><span class="highlight">Tesla (TSLA)</span></td>
+            <td>1,024.86</td>
+            <td>+180%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><span class="highlight">Apple (AAPL)</span></td>
+            <td>145.64</td>
+            <td>+120%</td>
+        </tr>
+        <!-- Add more stock data as per your requirement -->
+        <!-- Here are placeholders -->
+        <tr>
+            <td>4</td>
+            <td><span class="highlight">Google (GOOGL)</span></td>
+            <td>2,740.72</td>
+            <td>+130%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><span class="highlight">Microsoft (MSFT)</span></td>
+            <td>305.22</td>
+            <td>+110%</td>
+        </tr>
+        <!-- Continue adding rows for up to 25 stocks -->
+    </tbody>
+</table>
 
 </body>
 </html>

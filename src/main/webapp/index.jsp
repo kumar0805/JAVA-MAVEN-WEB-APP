@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School World Tour Notice</title>
+    <title>Notice of Exam Cancellation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
         }
         .container {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
-            border: 2px solid #4CAF50;
+            border: 2px solid #007BFF;
             border-radius: 10px;
-            background-color: #f9f9f9;
+            background-color: #fff;
         }
         h1 {
             text-align: center;
@@ -41,17 +42,31 @@
             font-weight: bold;
             margin-top: 10px;
         }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 150px;
+            height: auto;
+            margin: 0 20px;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Notice from <span>India School of Excellence, Delhi</span></h1>
+    <h1>Notice from <span>ISE, Delhi (Indian School of Excellence)</span></h1>
     
     <div class="notice">
-        <p>We are excited to announce that <strong>India School of Excellence, Delhi</strong> is organizing a world tour for students. Interested students are requested to send their names along with passport details to their respective class teachers.</p>
+        <p>This is to inform all students that the <strong>Mathematics exam for class 8th</strong>, scheduled for tomorrow, has been <strong>canceled due to the heavy rain expected tomorrow</strong>.</p>
         
-        <p class="special-note">Special Note: This tour is free of charge from the school side.</p>
+        <p class="special-note">Please stay safe and further information regarding the rescheduled date will be provided soon.</p>
+    </div>
+    
+    <div class="image-container">
+        <img src="https://img.icons8.com/emoji/96/rain-cloud.png" alt="Rain Icon">
+        <img src="https://img.icons8.com/office/160/school-building.png" alt="School Icon">
     </div>
 </div>
 
